@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 08 10:11:35 2017
+# Process ID: 27392
+# Log file: M:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/managed_ip_project/managed_ip_project.runs/ram_lab4_synth_1/ram_lab4.vds
+# Journal file: M:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/managed_ip_project/managed_ip_project.runs/ram_lab4_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram_lab4.tcl -notrace

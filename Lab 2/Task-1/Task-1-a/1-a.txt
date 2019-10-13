@@ -1,0 +1,9 @@
+After looking at the schematics of the synthesised design, one can conclude that the first
+method has more LUT consumpton than the second method. Both methods have 16 inputs going into a LUT, but
+the first method uses has inputs going to 4 LUTs while the first method has inputs going to only 3 LUTs. 
+Note: it is possible to generate a module level utilization report ("detailed map report"), which shows what modules use the
+what resources.
+
+From the schematics in the RTL analysis it is easy to see which method uses the lowest amount of ports; the 
+second one. Fewer ports means less delay.
+

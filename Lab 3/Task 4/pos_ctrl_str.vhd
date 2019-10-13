@@ -1,0 +1,62 @@
+architecture arch of pos_ctrl is
+-- Component Instantiations
+
+Component pos_meas
+	port (
+		rst, clk, sync_rst, a, b	: in std_logic;
+		pos							: out signed(7 downto 0)
+		);
+end component; 
+
+component p_ctrl
+	port (
+		rst, clk	: in std_logic;
+		sp			: in signed(7 downto 0);
+		pos			: in signed(7 downto 0);
+		motor_cw, motor_ccw : out std_logic
+	);
+end component;
+
+-- Internal Signal Declarations
+
+signal cwi, ccwi : std_logic;
+signal pos_i : signed (7 downto 0) := (others => '0');
+
+-- Behaviour
+begin
+	POSITION_SENSOR:
+	pos_meas port map(
+		rst => rst,
+		clk => mclk,
+		sync_rst => sync_rst,
+		a => a,
+		b => b,
+		pos => pos_i
+	);
+	
+	REGULATOR:
+	p_ctrl port map(
+		rst => rst_div,
+		clk => mclk_div,
+		sp => sp,
+		pos => pos_i,
+		motor_cw => cwi,
+		motor_ccw => ccwi
+	);
+	
+	F1:
+	process (force_ccw, force_cw, cwi, ccwi)
+	begin
+		if (force_ccw = force_cw) then -- statement is true when force_ccw and force_cw is equal
+			motor_cw <= cwi;
+			motor_ccw <= ccwi;
+		elsif (force_cw = '1') then -- force_cw = '1' and force_ccw = '0'
+			motor_cw <= '1';
+			motor_ccw <= '0';
+		else -- force_cw = '0' and force_ccw = '1'
+			motor_cw <= '0';
+			motor_ccw <= '1';
+		end if;
+	end process F1;
+	pos <= std_logic_vector(pos_i);
+end architecture;

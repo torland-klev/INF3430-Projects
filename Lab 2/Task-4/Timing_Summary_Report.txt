@@ -1,0 +1,1375 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct 04 14:29:12 2017
+| Host         : IFI-WESTPORT running 64-bit Service Pack 1  (build 7601)
+| Command      : report_timing_summary -warn_on_violation -max_paths 10 -file regs_timing_summary_routed.rpt -rpx regs_timing_summary_routed.rpx
+| Design       : regs
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.11 2014-09-11
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 8 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 12 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      4.768        0.000                      0                  108        0.192        0.000                      0                  108        4.500        0.000                       0                    97  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock  Waveform(ns)       Period(ns)      Frequency(MHz)
+-----  ------------       ----------      --------------
+CLK    {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+CLK                 4.768        0.000                      0                  108        0.192        0.000                      0                  108        4.500        0.000                       0                    97  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  CLK
+  To Clock:  CLK
+
+Setup :            0  Failing Endpoints,  Worst Slack        4.768ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.192ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        4.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             4.768ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        5.122ns  (logic 1.391ns (27.157%)  route 3.731ns (72.843%))
+  Logic Levels:           4  (LUT2=1 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.106ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.965ns = ( 14.965 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           1.251    10.255    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X35Y55         LUT5 (Prop_lut5_I4_O)        0.332    10.587 r  REGISTER_CONTROL/abcdefgdec_n_retimed[1]_i_1/O
+                         net (fo=1, routed)           0.000    10.587    SEGMENT_CONTROL/D[0]
+    SLICE_X35Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.483    14.965    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X35Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[1]/C
+                         clock pessimism              0.394    15.359    
+                         clock uncertainty           -0.035    15.324    
+    SLICE_X35Y55         FDRE (Setup_fdre_C_D)        0.031    15.355    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[1]
+  -------------------------------------------------------------------
+                         required time                         15.355    
+                         arrival time                         -10.587    
+  -------------------------------------------------------------------
+                         slack                                  4.768    
+
+Slack (MET) :             4.940ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[5]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.948ns  (logic 1.391ns (28.110%)  route 3.557ns (71.890%))
+  Logic Levels:           4  (LUT2=1 LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.107ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.964ns = ( 14.964 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           1.077    10.082    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X33Y54         LUT6 (Prop_lut6_I4_O)        0.332    10.414 r  REGISTER_CONTROL/abcdefgdec_n_retimed[5]_i_1/O
+                         net (fo=1, routed)           0.000    10.414    SEGMENT_CONTROL/D[4]
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[5]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.482    14.964    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[5]/C
+                         clock pessimism              0.394    15.358    
+                         clock uncertainty           -0.035    15.323    
+    SLICE_X33Y54         FDRE (Setup_fdre_C_D)        0.031    15.354    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[5]
+  -------------------------------------------------------------------
+                         required time                         15.354    
+                         arrival time                         -10.414    
+  -------------------------------------------------------------------
+                         slack                                  4.940    
+
+Slack (MET) :             4.950ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[6]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.939ns  (logic 1.391ns (28.165%)  route 3.548ns (71.835%))
+  Logic Levels:           4  (LUT2=1 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.107ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.964ns = ( 14.964 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           1.067    10.072    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X33Y55         LUT5 (Prop_lut5_I4_O)        0.332    10.404 r  REGISTER_CONTROL/abcdefgdec_n_retimed[6]_i_1/O
+                         net (fo=1, routed)           0.000    10.404    SEGMENT_CONTROL/D[5]
+    SLICE_X33Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[6]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.482    14.964    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X33Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[6]/C
+                         clock pessimism              0.394    15.358    
+                         clock uncertainty           -0.035    15.323    
+    SLICE_X33Y55         FDRE (Setup_fdre_C_D)        0.031    15.354    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[6]
+  -------------------------------------------------------------------
+                         required time                         15.354    
+                         arrival time                         -10.404    
+  -------------------------------------------------------------------
+                         slack                                  4.950    
+
+Slack (MET) :             4.989ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[4]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.898ns  (logic 1.391ns (28.397%)  route 3.507ns (71.603%))
+  Logic Levels:           4  (LUT2=1 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.106ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.965ns = ( 14.965 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           1.027    10.032    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X35Y54         LUT5 (Prop_lut5_I4_O)        0.332    10.364 r  REGISTER_CONTROL/abcdefgdec_n_retimed[4]_i_1/O
+                         net (fo=1, routed)           0.000    10.364    SEGMENT_CONTROL/D[3]
+    SLICE_X35Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.483    14.965    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X35Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[4]/C
+                         clock pessimism              0.394    15.359    
+                         clock uncertainty           -0.035    15.324    
+    SLICE_X35Y54         FDRE (Setup_fdre_C_D)        0.029    15.353    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[4]
+  -------------------------------------------------------------------
+                         required time                         15.353    
+                         arrival time                         -10.364    
+  -------------------------------------------------------------------
+                         slack                                  4.989    
+
+Slack (MET) :             5.023ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[3]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.865ns  (logic 1.391ns (28.590%)  route 3.474ns (71.410%))
+  Logic Levels:           4  (LUT2=1 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.107ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.964ns = ( 14.964 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           0.994     9.999    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X33Y55         LUT5 (Prop_lut5_I4_O)        0.332    10.331 r  REGISTER_CONTROL/abcdefgdec_n_retimed[3]_i_1/O
+                         net (fo=1, routed)           0.000    10.331    SEGMENT_CONTROL/D[2]
+    SLICE_X33Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.482    14.964    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X33Y55         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[3]/C
+                         clock pessimism              0.394    15.358    
+                         clock uncertainty           -0.035    15.323    
+    SLICE_X33Y55         FDRE (Setup_fdre_C_D)        0.031    15.354    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[3]
+  -------------------------------------------------------------------
+                         required time                         15.354    
+                         arrival time                         -10.331    
+  -------------------------------------------------------------------
+                         slack                                  5.023    
+
+Slack (MET) :             5.025ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[7]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.863ns  (logic 1.391ns (28.602%)  route 3.472ns (71.398%))
+  Logic Levels:           4  (LUT2=1 LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.107ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.964ns = ( 14.964 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           0.992     9.997    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X33Y54         LUT6 (Prop_lut6_I5_O)        0.332    10.329 r  REGISTER_CONTROL/abcdefgdec_n_retimed[7]_i_1/O
+                         net (fo=1, routed)           0.000    10.329    SEGMENT_CONTROL/D[6]
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.482    14.964    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[7]/C
+                         clock pessimism              0.394    15.358    
+                         clock uncertainty           -0.035    15.323    
+    SLICE_X33Y54         FDRE (Setup_fdre_C_D)        0.031    15.354    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[7]
+  -------------------------------------------------------------------
+                         required time                         15.354    
+                         arrival time                         -10.329    
+  -------------------------------------------------------------------
+                         slack                                  5.025    
+
+Slack (MET) :             5.175ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.711ns  (logic 1.391ns (29.524%)  route 3.320ns (70.476%))
+  Logic Levels:           4  (LUT2=1 LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.107ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.964ns = ( 14.964 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.394ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 f  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 f  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 f  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 r  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           0.840     9.845    REGISTER_CONTROL/display_number_reg[0]
+    SLICE_X33Y54         LUT6 (Prop_lut6_I5_O)        0.332    10.177 r  REGISTER_CONTROL/abcdefgdec_n_retimed[2]_i_1/O
+                         net (fo=1, routed)           0.000    10.177    SEGMENT_CONTROL/D[1]
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.482    14.964    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X33Y54         FDRE                                         r  SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[2]/C
+                         clock pessimism              0.394    15.358    
+                         clock uncertainty           -0.035    15.323    
+    SLICE_X33Y54         FDRE (Setup_fdre_C_D)        0.029    15.352    SEGMENT_CONTROL/abcdefgdec_n_retimed_reg[2]
+  -------------------------------------------------------------------
+                         required time                         15.352    
+                         arrival time                         -10.177    
+  -------------------------------------------------------------------
+                         slack                                  5.175    
+
+Slack (MET) :             5.259ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.601ns  (logic 1.391ns (30.233%)  route 3.210ns (69.767%))
+  Logic Levels:           4  (LUT2=2 LUT5=1 LUT6=1)
+  Clock Path Skew:        -0.134ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.052ns = ( 15.052 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.280ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 r  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 r  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 r  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.828     8.853    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT5 (Prop_lut5_I2_O)        0.152     9.005 f  SEGMENT_CONTROL/abcdefgdec_n_retimed[7]_i_7/O
+                         net (fo=8, routed)           0.730     9.734    SEGMENT_CONTROL/a_n_reg[2]_0
+    SLICE_X29Y49         LUT2 (Prop_lut2_I0_O)        0.332    10.066 r  SEGMENT_CONTROL/a_n[2]_i_1/O
+                         net (fo=1, routed)           0.000    10.066    SEGMENT_CONTROL/a_n[2]_i_1_n_0
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.569    15.052    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[2]/C
+                         clock pessimism              0.280    15.332    
+                         clock uncertainty           -0.035    15.296    
+    SLICE_X29Y49         FDRE (Setup_fdre_C_D)        0.029    15.325    SEGMENT_CONTROL/a_n_reg[2]
+  -------------------------------------------------------------------
+                         required time                         15.325    
+                         arrival time                         -10.066    
+  -------------------------------------------------------------------
+                         slack                                  5.259    
+
+Slack (MET) :             5.270ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[14]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[3]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.636ns  (logic 1.183ns (25.519%)  route 3.453ns (74.481%))
+  Logic Levels:           4  (LUT2=1 LUT3=1 LUT6=2)
+  Clock Path Skew:        -0.134ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.052ns = ( 15.052 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.465ns
+    Clock Pessimism Removal (CPR):    0.280ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.703     5.465    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y50         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y50         FDCE (Prop_fdce_C_Q)         0.456     5.921 r  SEGMENT_CONTROL/display_number_reg[14]/Q
+                         net (fo=4, routed)           1.028     6.950    SEGMENT_CONTROL/display_number_reg_n_0_[14]
+    SLICE_X29Y52         LUT2 (Prop_lut2_I0_O)        0.119     7.069 r  SEGMENT_CONTROL/a_n[0]_i_8/O
+                         net (fo=1, routed)           0.624     7.692    SEGMENT_CONTROL/a_n[0]_i_8_n_0
+    SLICE_X29Y53         LUT6 (Prop_lut6_I5_O)        0.332     8.024 r  SEGMENT_CONTROL/a_n[0]_i_4/O
+                         net (fo=4, routed)           0.639     8.663    SEGMENT_CONTROL/a_n[0]_i_4_n_0
+    SLICE_X28Y52         LUT6 (Prop_lut6_I4_O)        0.124     8.787 r  SEGMENT_CONTROL/abcdefgdec_n_OBUFT[7]_inst_i_2/O
+                         net (fo=2, routed)           1.162     9.949    SEGMENT_CONTROL/abcdefgdec_n_OBUFT[7]_inst_i_1
+    SLICE_X29Y49         LUT3 (Prop_lut3_I2_O)        0.152    10.101 r  SEGMENT_CONTROL/a_n[3]_i_1/O
+                         net (fo=1, routed)           0.000    10.101    SEGMENT_CONTROL/a_n[3]_i_1_n_0
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.569    15.052    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[3]/C
+                         clock pessimism              0.280    15.332    
+                         clock uncertainty           -0.035    15.296    
+    SLICE_X29Y49         FDRE (Setup_fdre_C_D)        0.075    15.371    SEGMENT_CONTROL/a_n_reg[3]
+  -------------------------------------------------------------------
+                         required time                         15.371    
+                         arrival time                         -10.101    
+  -------------------------------------------------------------------
+                         slack                                  5.270    
+
+Slack (MET) :             5.286ns  (required time - arrival time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[30]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/display_number_reg[17]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (CLK rise@10.000ns - CLK rise@0.000ns)
+  Data Path Delay:        4.685ns  (logic 0.952ns (20.321%)  route 3.733ns (79.679%))
+  Logic Levels:           4  (LUT2=2 LUT6=2)
+  Clock Path Skew:        -0.025ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    5.010ns = ( 15.010 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.464ns
+    Clock Pessimism Removal (CPR):    0.429ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.490     1.490 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           2.171     3.661    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     3.762 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.702     5.464    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y54         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[30]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y54         FDCE (Prop_fdce_C_Q)         0.456     5.920 r  SEGMENT_CONTROL/display_number_reg[30]/Q
+                         net (fo=2, routed)           1.044     6.965    SEGMENT_CONTROL/display_number_reg_n_0_[30]
+    SLICE_X31Y51         LUT6 (Prop_lut6_I3_O)        0.124     7.089 r  SEGMENT_CONTROL/a_n[0]_i_6/O
+                         net (fo=1, routed)           0.414     7.502    SEGMENT_CONTROL/a_n[0]_i_6_n_0
+    SLICE_X28Y51         LUT2 (Prop_lut2_I0_O)        0.124     7.626 r  SEGMENT_CONTROL/a_n[0]_i_2/O
+                         net (fo=6, routed)           1.070     8.696    SEGMENT_CONTROL/a_n[0]_i_2_n_0
+    SLICE_X28Y51         LUT6 (Prop_lut6_I0_O)        0.124     8.820 f  SEGMENT_CONTROL/display_number[31]_i_4/O
+                         net (fo=31, routed)          1.205    10.025    SEGMENT_CONTROL/display_number[31]_i_4_n_0
+    SLICE_X31Y53         LUT2 (Prop_lut2_I1_O)        0.124    10.149 r  SEGMENT_CONTROL/display_number[17]_i_1/O
+                         net (fo=1, routed)           0.000    10.149    SEGMENT_CONTROL/display_number[17]_i_1_n_0
+    SLICE_X31Y53         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[17]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)       10.000    10.000 r  
+    Y9                                                0.000    10.000 r  CLK (IN)
+                         net (fo=0)                   0.000    10.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         1.420    11.420 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           1.972    13.392    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.483 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          1.528    15.010    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y53         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[17]/C
+                         clock pessimism              0.429    15.439    
+                         clock uncertainty           -0.035    15.404    
+    SLICE_X31Y53         FDCE (Setup_fdce_C_D)        0.031    15.435    SEGMENT_CONTROL/display_number_reg[17]
+  -------------------------------------------------------------------
+                         required time                         15.435    
+                         arrival time                         -10.149    
+  -------------------------------------------------------------------
+                         slack                                  5.286    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.192ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[0]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[3]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.577ns  (logic 0.183ns (31.699%)  route 0.394ns (68.301%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.278ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.051ns
+    Source Clock Delay      (SCD):    1.526ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.579     1.526    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X28Y52         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y52         FDCE (Prop_fdce_C_Q)         0.141     1.667 f  SEGMENT_CONTROL/display_number_reg[0]/Q
+                         net (fo=8, routed)           0.394     2.061    SEGMENT_CONTROL/display_number_reg_n_0_[0]
+    SLICE_X29Y49         LUT3 (Prop_lut3_I1_O)        0.042     2.103 r  SEGMENT_CONTROL/a_n[3]_i_1/O
+                         net (fo=1, routed)           0.000     2.103    SEGMENT_CONTROL/a_n[3]_i_1_n_0
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.857     2.051    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[3]/C
+                         clock pessimism             -0.247     1.804    
+    SLICE_X29Y49         FDRE (Hold_fdre_C_D)         0.107     1.911    SEGMENT_CONTROL/a_n_reg[3]
+  -------------------------------------------------------------------
+                         required time                         -1.911    
+                         arrival time                           2.103    
+  -------------------------------------------------------------------
+                         slack                                  0.192    
+
+Slack (MET) :             0.203ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[0]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.307ns  (logic 0.186ns (60.576%)  route 0.121ns (39.424%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.041ns
+    Source Clock Delay      (SCD):    1.526ns
+    Clock Pessimism Removal (CPR):    0.502ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.579     1.526    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X28Y52         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y52         FDCE (Prop_fdce_C_Q)         0.141     1.667 r  SEGMENT_CONTROL/display_number_reg[0]/Q
+                         net (fo=8, routed)           0.121     1.788    SEGMENT_CONTROL/display_number_reg_n_0_[0]
+    SLICE_X29Y52         LUT6 (Prop_lut6_I0_O)        0.045     1.833 r  SEGMENT_CONTROL/a_n[0]_i_1/O
+                         net (fo=1, routed)           0.000     1.833    SEGMENT_CONTROL/a_n[0]_i_1_n_0
+    SLICE_X29Y52         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.847     2.041    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y52         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[0]/C
+                         clock pessimism             -0.502     1.539    
+    SLICE_X29Y52         FDRE (Hold_fdre_C_D)         0.091     1.630    SEGMENT_CONTROL/a_n_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -1.630    
+                         arrival time                           1.833    
+  -------------------------------------------------------------------
+                         slack                                  0.203    
+
+Slack (MET) :             0.212ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[0]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.582ns  (logic 0.186ns (31.942%)  route 0.396ns (68.058%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.278ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.051ns
+    Source Clock Delay      (SCD):    1.526ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.579     1.526    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X28Y52         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y52         FDCE (Prop_fdce_C_Q)         0.141     1.667 f  SEGMENT_CONTROL/display_number_reg[0]/Q
+                         net (fo=8, routed)           0.396     2.063    SEGMENT_CONTROL/display_number_reg_n_0_[0]
+    SLICE_X29Y49         LUT2 (Prop_lut2_I1_O)        0.045     2.108 r  SEGMENT_CONTROL/a_n[1]_i_1/O
+                         net (fo=1, routed)           0.000     2.108    SEGMENT_CONTROL/a_n[1]_i_1_n_0
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.857     2.051    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[1]/C
+                         clock pessimism             -0.247     1.804    
+    SLICE_X29Y49         FDRE (Hold_fdre_C_D)         0.092     1.896    SEGMENT_CONTROL/a_n_reg[1]
+  -------------------------------------------------------------------
+                         required time                         -1.896    
+                         arrival time                           2.108    
+  -------------------------------------------------------------------
+                         slack                                  0.212    
+
+Slack (MET) :             0.245ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/display_number_reg[1]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/a_n_reg[2]/D
+                            (rising edge-triggered cell FDRE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.615ns  (logic 0.186ns (30.222%)  route 0.429ns (69.778%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Path Skew:        0.279ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.051ns
+    Source Clock Delay      (SCD):    1.525ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.578     1.525    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X31Y53         FDCE                                         r  SEGMENT_CONTROL/display_number_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y53         FDCE (Prop_fdce_C_Q)         0.141     1.666 f  SEGMENT_CONTROL/display_number_reg[1]/Q
+                         net (fo=14, routed)          0.429     2.095    SEGMENT_CONTROL/Q[0]
+    SLICE_X29Y49         LUT2 (Prop_lut2_I1_O)        0.045     2.140 r  SEGMENT_CONTROL/a_n[2]_i_1/O
+                         net (fo=1, routed)           0.000     2.140    SEGMENT_CONTROL/a_n[2]_i_1_n_0
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.857     2.051    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X29Y49         FDRE                                         r  SEGMENT_CONTROL/a_n_reg[2]/C
+                         clock pessimism             -0.247     1.804    
+    SLICE_X29Y49         FDRE (Hold_fdre_C_D)         0.091     1.895    SEGMENT_CONTROL/a_n_reg[2]
+  -------------------------------------------------------------------
+                         required time                         -1.895    
+                         arrival time                           2.140    
+  -------------------------------------------------------------------
+                         slack                                  0.245    
+
+Slack (MET) :             0.303ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[7]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[9]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.667ns  (logic 0.459ns (68.856%)  route 0.208ns (31.144%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.256ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.040ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y49         FDCE                                         r  SEGMENT_CONTROL/count_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y49         FDCE (Prop_fdce_C_Q)         0.141     1.678 r  SEGMENT_CONTROL/count_reg[7]/Q
+                         net (fo=2, routed)           0.066     1.744    SEGMENT_CONTROL/count_reg_n_0_[7]
+    SLICE_X26Y49         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.900 r  SEGMENT_CONTROL/count_reg[8]_i_2/CO[3]
+                         net (fo=1, routed)           0.001     1.901    SEGMENT_CONTROL/count_reg[8]_i_2_n_0
+    SLICE_X26Y50         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.053     1.954 r  SEGMENT_CONTROL/count_reg[12]_i_2/O[0]
+                         net (fo=1, routed)           0.141     2.094    SEGMENT_CONTROL/count_reg[12]_i_2_n_7
+    SLICE_X27Y51         LUT2 (Prop_lut2_I1_O)        0.109     2.203 r  SEGMENT_CONTROL/count[9]_i_1/O
+                         net (fo=1, routed)           0.000     2.203    SEGMENT_CONTROL/count[9]
+    SLICE_X27Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.846     2.040    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[9]/C
+                         clock pessimism             -0.247     1.793    
+    SLICE_X27Y51         FDCE (Hold_fdce_C_D)         0.107     1.900    SEGMENT_CONTROL/count_reg[9]
+  -------------------------------------------------------------------
+                         required time                         -1.900    
+                         arrival time                           2.203    
+  -------------------------------------------------------------------
+                         slack                                  0.303    
+
+Slack (MET) :             0.324ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[0]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[0]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.416ns  (logic 0.186ns (44.711%)  route 0.230ns (55.289%))
+  Logic Levels:           1  (LUT1=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.052ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.515ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y48         FDCE                                         r  SEGMENT_CONTROL/count_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y48         FDCE (Prop_fdce_C_Q)         0.141     1.678 f  SEGMENT_CONTROL/count_reg[0]/Q
+                         net (fo=3, routed)           0.230     1.908    SEGMENT_CONTROL/count_reg_n_0_[0]
+    SLICE_X27Y48         LUT1 (Prop_lut1_I0_O)        0.045     1.953 r  SEGMENT_CONTROL/count[0]_i_1/O
+                         net (fo=1, routed)           0.000     1.953    SEGMENT_CONTROL/count[0]
+    SLICE_X27Y48         FDCE                                         r  SEGMENT_CONTROL/count_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.858     2.052    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y48         FDCE                                         r  SEGMENT_CONTROL/count_reg[0]/C
+                         clock pessimism             -0.515     1.537    
+    SLICE_X27Y48         FDCE (Hold_fdce_C_D)         0.092     1.629    SEGMENT_CONTROL/count_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -1.629    
+                         arrival time                           1.953    
+  -------------------------------------------------------------------
+                         slack                                  0.324    
+
+Slack (MET) :             0.331ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[7]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[11]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.694ns  (logic 0.468ns (67.411%)  route 0.226ns (32.589%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.256ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.040ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y49         FDCE                                         r  SEGMENT_CONTROL/count_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y49         FDCE (Prop_fdce_C_Q)         0.141     1.678 r  SEGMENT_CONTROL/count_reg[7]/Q
+                         net (fo=2, routed)           0.066     1.744    SEGMENT_CONTROL/count_reg_n_0_[7]
+    SLICE_X26Y49         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.900 r  SEGMENT_CONTROL/count_reg[8]_i_2/CO[3]
+                         net (fo=1, routed)           0.001     1.901    SEGMENT_CONTROL/count_reg[8]_i_2_n_0
+    SLICE_X26Y50         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.066     1.967 r  SEGMENT_CONTROL/count_reg[12]_i_2/O[2]
+                         net (fo=1, routed)           0.159     2.126    SEGMENT_CONTROL/count_reg[12]_i_2_n_5
+    SLICE_X27Y50         LUT2 (Prop_lut2_I1_O)        0.105     2.231 r  SEGMENT_CONTROL/count[11]_i_1/O
+                         net (fo=1, routed)           0.000     2.231    SEGMENT_CONTROL/count[11]
+    SLICE_X27Y50         FDCE                                         r  SEGMENT_CONTROL/count_reg[11]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.846     2.040    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y50         FDCE                                         r  SEGMENT_CONTROL/count_reg[11]/C
+                         clock pessimism             -0.247     1.793    
+    SLICE_X27Y50         FDCE (Hold_fdce_C_D)         0.107     1.900    SEGMENT_CONTROL/count_reg[11]
+  -------------------------------------------------------------------
+                         required time                         -1.900    
+                         arrival time                           2.231    
+  -------------------------------------------------------------------
+                         slack                                  0.331    
+
+Slack (MET) :             0.369ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[7]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[15]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.718ns  (logic 0.511ns (71.208%)  route 0.207ns (28.792%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.256ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.040ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y49         FDCE                                         r  SEGMENT_CONTROL/count_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y49         FDCE (Prop_fdce_C_Q)         0.141     1.678 r  SEGMENT_CONTROL/count_reg[7]/Q
+                         net (fo=2, routed)           0.066     1.744    SEGMENT_CONTROL/count_reg_n_0_[7]
+    SLICE_X26Y49         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.900 r  SEGMENT_CONTROL/count_reg[8]_i_2/CO[3]
+                         net (fo=1, routed)           0.001     1.901    SEGMENT_CONTROL/count_reg[8]_i_2_n_0
+    SLICE_X26Y50         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.941 r  SEGMENT_CONTROL/count_reg[12]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     1.941    SEGMENT_CONTROL/count_reg[12]_i_2_n_0
+    SLICE_X26Y51         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.066     2.007 r  SEGMENT_CONTROL/count_reg[16]_i_2/O[2]
+                         net (fo=1, routed)           0.140     2.146    SEGMENT_CONTROL/count_reg[16]_i_2_n_5
+    SLICE_X27Y51         LUT2 (Prop_lut2_I1_O)        0.108     2.254 r  SEGMENT_CONTROL/count[15]_i_1/O
+                         net (fo=1, routed)           0.000     2.254    SEGMENT_CONTROL/count[15]
+    SLICE_X27Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[15]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.846     2.040    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[15]/C
+                         clock pessimism             -0.247     1.793    
+    SLICE_X27Y51         FDCE (Hold_fdce_C_D)         0.092     1.885    SEGMENT_CONTROL/count_reg[15]
+  -------------------------------------------------------------------
+                         required time                         -1.885    
+                         arrival time                           2.254    
+  -------------------------------------------------------------------
+                         slack                                  0.369    
+
+Slack (MET) :             0.410ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[7]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[10]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.757ns  (logic 0.495ns (65.375%)  route 0.262ns (34.625%))
+  Logic Levels:           3  (CARRY4=2 LUT2=1)
+  Clock Path Skew:        0.256ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.040ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y49         FDCE                                         r  SEGMENT_CONTROL/count_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y49         FDCE (Prop_fdce_C_Q)         0.141     1.678 r  SEGMENT_CONTROL/count_reg[7]/Q
+                         net (fo=2, routed)           0.066     1.744    SEGMENT_CONTROL/count_reg_n_0_[7]
+    SLICE_X26Y49         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.900 r  SEGMENT_CONTROL/count_reg[8]_i_2/CO[3]
+                         net (fo=1, routed)           0.001     1.901    SEGMENT_CONTROL/count_reg[8]_i_2_n_0
+    SLICE_X26Y50         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.090     1.991 r  SEGMENT_CONTROL/count_reg[12]_i_2/O[1]
+                         net (fo=1, routed)           0.195     2.186    SEGMENT_CONTROL/count_reg[12]_i_2_n_6
+    SLICE_X27Y50         LUT2 (Prop_lut2_I1_O)        0.108     2.294 r  SEGMENT_CONTROL/count[10]_i_1/O
+                         net (fo=1, routed)           0.000     2.294    SEGMENT_CONTROL/count[10]
+    SLICE_X27Y50         FDCE                                         r  SEGMENT_CONTROL/count_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.846     2.040    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y50         FDCE                                         r  SEGMENT_CONTROL/count_reg[10]/C
+                         clock pessimism             -0.247     1.793    
+    SLICE_X27Y50         FDCE (Hold_fdce_C_D)         0.091     1.884    SEGMENT_CONTROL/count_reg[10]
+  -------------------------------------------------------------------
+                         required time                         -1.884    
+                         arrival time                           2.294    
+  -------------------------------------------------------------------
+                         slack                                  0.410    
+
+Slack (MET) :             0.416ns  (arrival time - required time)
+  Source:                 SEGMENT_CONTROL/count_reg[7]/C
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            SEGMENT_CONTROL/count_reg[16]/D
+                            (rising edge-triggered cell FDCE clocked by CLK  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             CLK
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (CLK rise@0.000ns - CLK rise@0.000ns)
+  Data Path Delay:        0.765ns  (logic 0.540ns (70.634%)  route 0.225ns (29.366%))
+  Logic Levels:           4  (CARRY4=3 LUT2=1)
+  Clock Path Skew:        0.257ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.041ns
+    Source Clock Delay      (SCD):    1.537ns
+    Clock Pessimism Removal (CPR):    0.247ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.258     0.258 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.663     0.921    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.947 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.590     1.537    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X27Y49         FDCE                                         r  SEGMENT_CONTROL/count_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y49         FDCE (Prop_fdce_C_Q)         0.141     1.678 r  SEGMENT_CONTROL/count_reg[7]/Q
+                         net (fo=2, routed)           0.066     1.744    SEGMENT_CONTROL/count_reg_n_0_[7]
+    SLICE_X26Y49         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.900 r  SEGMENT_CONTROL/count_reg[8]_i_2/CO[3]
+                         net (fo=1, routed)           0.001     1.901    SEGMENT_CONTROL/count_reg[8]_i_2_n_0
+    SLICE_X26Y50         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.941 r  SEGMENT_CONTROL/count_reg[12]_i_2/CO[3]
+                         net (fo=1, routed)           0.000     1.941    SEGMENT_CONTROL/count_reg[12]_i_2_n_0
+    SLICE_X26Y51         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.092     2.033 r  SEGMENT_CONTROL/count_reg[16]_i_2/O[3]
+                         net (fo=1, routed)           0.158     2.190    SEGMENT_CONTROL/count_reg[16]_i_2_n_4
+    SLICE_X28Y51         LUT2 (Prop_lut2_I1_O)        0.111     2.301 r  SEGMENT_CONTROL/count[16]_i_1/O
+                         net (fo=1, routed)           0.000     2.301    SEGMENT_CONTROL/count[16]
+    SLICE_X28Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[16]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock CLK rise edge)        0.000     0.000 r  
+    Y9                                                0.000     0.000 r  CLK (IN)
+                         net (fo=0)                   0.000     0.000    CLK
+    Y9                   IBUF (Prop_ibuf_I_O)         0.446     0.446 r  CLK_IBUF_inst/O
+                         net (fo=1, routed)           0.719     1.165    CLK_IBUF
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.194 r  CLK_IBUF_BUFG_inst/O
+                         net (fo=96, routed)          0.847     2.041    SEGMENT_CONTROL/CLK_IBUF_BUFG
+    SLICE_X28Y51         FDCE                                         r  SEGMENT_CONTROL/count_reg[16]/C
+                         clock pessimism             -0.247     1.794    
+    SLICE_X28Y51         FDCE (Hold_fdce_C_D)         0.091     1.885    SEGMENT_CONTROL/count_reg[16]
+  -------------------------------------------------------------------
+                         required time                         -1.885    
+                         arrival time                           2.301    
+  -------------------------------------------------------------------
+                         slack                                  0.416    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         CLK
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { CLK }
+
+Check Type        Corner  Lib Pin  Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location       Pin
+Min Period        n/a     BUFG/I   n/a            2.155         10.000      7.845      BUFGCTRL_X0Y0  CLK_IBUF_BUFG_inst/I
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[0]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X37Y59   REGISTER_CONTROL/D0_retimed_reg[1]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[2]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y57   REGISTER_CONTROL/D0_retimed_reg[3]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[0]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[1]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[2]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[3]/C
+Min Period        n/a     FDCE/C   n/a            1.000         10.000      9.000      SLICE_X36Y59   REGISTER_CONTROL/D2_retimed_reg[0]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X28Y53   SEGMENT_CONTROL/count_reg[18]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X28Y53   SEGMENT_CONTROL/count_reg[30]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[11]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X29Y53   SEGMENT_CONTROL/display_number_reg[15]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[16]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[17]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[18]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X29Y53   SEGMENT_CONTROL/display_number_reg[19]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[1]/C
+Low Pulse Width   Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X31Y53   SEGMENT_CONTROL/display_number_reg[22]/C
+High Pulse Width  Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[0]/C
+High Pulse Width  Fast    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[0]/C
+High Pulse Width  Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y59   REGISTER_CONTROL/D0_retimed_reg[1]/C
+High Pulse Width  Fast    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y59   REGISTER_CONTROL/D0_retimed_reg[1]/C
+High Pulse Width  Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[2]/C
+High Pulse Width  Fast    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X37Y57   REGISTER_CONTROL/D0_retimed_reg[2]/C
+High Pulse Width  Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X36Y57   REGISTER_CONTROL/D0_retimed_reg[3]/C
+High Pulse Width  Fast    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X36Y57   REGISTER_CONTROL/D0_retimed_reg[3]/C
+High Pulse Width  Slow    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[0]/C
+High Pulse Width  Fast    FDCE/C   n/a            0.500         5.000       4.500      SLICE_X36Y58   REGISTER_CONTROL/D1_retimed_reg[0]/C
+
+
+

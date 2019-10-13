@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 08 10:54:23 2017
+# Process ID: 35548
+# Log file: M:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/New_INF3430_Lab4/New_INF3430_Lab4.runs/synth_1/lab4_top.vds
+# Journal file: M:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/New_INF3430_Lab4/New_INF3430_Lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab4_top.tcl -notrace

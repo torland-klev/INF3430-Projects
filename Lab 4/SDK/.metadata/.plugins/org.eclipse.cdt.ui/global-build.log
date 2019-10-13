@@ -1,0 +1,2162 @@
+11:35:10 **** Build of project INF3430_Lab4_Task6_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:35:38 **** Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+11:35:52 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:35:58 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:36:04 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:36:21 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:55:17 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+11:55:26 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:55:47 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:56:23 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+11:56:44 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+12:03:14 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:03:58 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:06:23 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:07:10 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:07:29 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:07:38 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:08:17 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:08:35 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:09:34 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:09:38 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:09:46 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:09:53 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:10:34 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:11:24 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:12:23 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:13:11 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:13:38 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+12:15:29 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+12:15:56 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+12:16:57 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+15:49:46 **** Build of project INF3430_Lab4_Task6_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+15:50:23 **** Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+15:54:43 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+15:56:12 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+15:58:56 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:25: error: 'num' undeclared (first use in this function)
+   nitems = scanf("%d", &num);
+                         ^
+../src/helloworld.c:63:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:69:8: error: expected identifier or '*' before '(' token
+    goto(63);
+        ^
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+15:59:24 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:30: error: 'num' undeclared (first use in this function)
+   SCAN:nitems = scanf("%d", &num);
+                              ^
+../src/helloworld.c:63:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:69:8: error: expected identifier or '*' before '(' token
+    goto(SCAN);
+        ^
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+../src/helloworld.c:63:3: warning: label 'SCAN' defined but not used [-Wunused-label]
+   SCAN:nitems = scanf("%d", &num);
+   ^
+make: *** [src/helloworld.o] Error 1
+16:00:10 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:31: error: 'num' undeclared (first use in this function)
+   SCAN: nitems = scanf("%d", &num);
+                               ^
+../src/helloworld.c:63:31: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:00:25 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:25: error: 'num' undeclared (first use in this function)
+   nitems = scanf("%d", &num);
+                         ^
+../src/helloworld.c:63:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:00:51 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:25: error: 'num' undeclared (first use in this function)
+   nitems = scanf("%d", &num);
+                         ^
+../src/helloworld.c:64:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:83:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:83:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:87:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:87:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:92:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:97:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:01:16 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:82:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:01:22 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:5: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+     ^
+../src/helloworld.c:82:14: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+     Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+              ^
+../src/helloworld.c:82:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:27: error: 'u8' undeclared (first use in this function)
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:86:30: error: expected ',' or ';' before 'Xil_In8'
+      unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                              ^
+../src/helloworld.c:91:7: error: too many arguments to function 'perror'
+       perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+       ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:6: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+      Sleep(10);
+      ^
+make: *** [src/helloworld.o] Error 1
+16:01:54 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:82:12: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+            ^
+../src/helloworld.c:82:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:24: error: 'u8' undeclared (first use in this function)
+   unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                        ^
+../src/helloworld.c:86:27: error: expected ',' or ';' before 'Xil_In8'
+   unsigned reg_value = u8 Xil_In8(XPAR_M00_AXI_BASEADDR);
+                           ^
+../src/helloworld.c:91:4: error: too many arguments to function 'perror'
+    perror("Value in register %d is not equal to setpoint %d", reg_value, setpoint);
+    ^
+In file included from c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:29:0,
+                 from ../src/helloworld.c:48:
+c:\xilinx\sdk\2015.2\gnu\arm\nt\arm-xilinx-eabi\include\stdio.h:254:9: note: declared here
+ void    _EXFUN(perror, (const char *));
+         ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:02:16 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:82:12: error: 'XPAR_M00_AXI_BASEADDR' undeclared (first use in this function)
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+            ^
+../src/helloworld.c:82:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:86:3: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+   unsigned reg_value = Xil_In8(XPAR_M00_AXI_BASEADDR);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:02:35 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:52:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../src/helloworld.c:50:
+../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:97:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:03:00 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../src/helloworld.c:50:
+../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:98:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:03:07 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:82: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:03:30 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../src/helloworld.c:50:
+../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:98:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:03:45 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:82: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:03:59 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:82: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:04:57 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:82: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:05:18 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:82: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:06:09 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:81:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:95:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:81: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:95: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:06:25 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:81:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:95:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:81: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:95: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:06:58 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:81:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:95:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:81: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:95: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:07:23 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:81:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:95:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:81: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:95: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:08:14 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:97:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:83: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:97: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:08:24 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: implicit declaration of function 'Xil_out8' [-Wimplicit-function-declaration]
+   Xil_out8(XPAR_M00_AXI_BASEADDR, setpoint);
+   ^
+../src/helloworld.c:98:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:84: undefined reference to `Xil_out8'
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:98: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:09:17 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:95:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:95: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:09:44 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+      SCAN: nitems = scanf("%d", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:09:57 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+      SCAN: nitems = scanf("%d", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:10:35 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+      SCAN: nitems = scanf("%h", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:10:55 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+      SCAN: nitems = scanf("%d", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'u8 *' [-Wformat=]
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:11:06 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+      SCAN: nitems = scanf("%h", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:96:4: warning: implicit declaration of function 'Sleep' [-Wimplicit-function-declaration]
+    Sleep(10);
+    ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+M:\pc\Desktop\INF3430\INF3430-Lab-4\SDK\INF3430_Lab4_Task6\Debug/../src/helloworld.c:96: undefined reference to `Sleep'
+collect2.exe: error: ld returned 1 exit status
+make: *** [INF3430_Lab4_Task6.elf] Error 1
+16:11:20 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+      SCAN: nitems = scanf("%h", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97380	   2328	  22636	 122344	  1dde8	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:11:40 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'u8 *' [-Wformat=]
+      SCAN: nitems = scanf("%hu", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'u8 *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97380	   2328	  22636	 122344	  1dde8	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:11:48 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+      SCAN: nitems = scanf("%h", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97380	   2328	  22636	 122344	  1dde8	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:12:36 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'u8 *' [-Wformat=]
+      SCAN: nitems = scanf("%hu", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: format '%hu' expects argument of type 'short unsigned int *', but argument 2 has type 'u8 *' [-Wformat=]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97380	   2328	  22636	 122344	  1dde8	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:12:46 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+      SCAN: nitems = scanf("%h", &setpoint);
+      ^
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+../src/helloworld.c:64:6: warning: conversion lacks type at end of format [-Wformat=]
+../src/helloworld.c:64:6: warning: too many arguments for format [-Wformat-extra-args]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97380	   2328	  22636	 122344	  1dde8	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:14:59 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97388	   2328	  22636	 122352	  1ddf0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:18:44 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:20:14 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:20:55 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:21:01 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:05 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:22:15 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:22:47 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:94:4: error: break statement not within loop or switch
+    break;
+    ^
+make: *** [src/helloworld.o] Error 1
+16:22:54 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60820	   2320	  22636	  85776	  14f10	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:23:03 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:24:29 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60884	   2320	  22636	  85840	  14f50	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:24:34 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:24:41 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:24:46 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:27:18 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:27:24 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:27:48 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:27:53 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:28:45 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:29:04 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:29:12 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:29:17 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:29:32 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:29:38 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:30:02 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:30:16 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:30:27 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:30:55 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:31:03 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:32:25 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: label 'WRITE' defined but not used [-Wunused-label]
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:32:35 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:33:27 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:101:4: error: duplicate label 'WRITE'
+    WRITE: Xil_Out8(0x40000010, setpoint);
+    ^
+../src/helloworld.c:84:3: note: previous definition of 'WRITE' was here
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+../src/helloworld.c:103:4: error: duplicate label 'WRITE'
+    WRITE: Xil_Out8(0x40000010, setpoint);
+    ^
+../src/helloworld.c:84:3: note: previous definition of 'WRITE' was here
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+../src/helloworld.c:84:3: warning: label 'WRITE' defined but not used [-Wunused-label]
+make: *** [src/helloworld.o] Error 1
+16:33:35 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: label 'WRITE' defined but not used [-Wunused-label]
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  60948	   2320	  22636	  85904	  14f90	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:33:47 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:34:04 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: label 'WRITE' defined but not used [-Wunused-label]
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:34:10 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:34:40 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:84:3: warning: label 'WRITE' defined but not used [-Wunused-label]
+   WRITE: Xil_Out8(0x40000010, setpoint);
+   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:34:52 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:34:57 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:35:18 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:35:22 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:35:39 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:35:45 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:36:01 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:41:38 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:41:44 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:42:07 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:42:23 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61012	   2320	  22636	  85968	  14fd0	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:43:58 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:44:11 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:44:18 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+16:45:10 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:119:4: error: expected ';' before 'Xil_Out8'
+    Xil_Out8(0x40000010, 0);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:45:13 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:119:4: error: expected ';' before 'Xil_Out8'
+    Xil_Out8(0x40000010, 0x0);
+    ^
+make: *** [src/helloworld.o] Error 1
+16:45:17 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:45:25 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:45:34 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:45:43 **** Auto Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: INF3430_Lab4_Task6.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../INF3430_Lab4_Task6_bsp/ps7_cortexa9_0/lib -o "INF3430_Lab4_Task6.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: INF3430_Lab4_Task6.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size INF3430_Lab4_Task6.elf  |tee "INF3430_Lab4_Task6.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61076	   2320	  22636	  86032	  15010	INF3430_Lab4_Task6.elf
+'Finished building: INF3430_Lab4_Task6.elf.size'
+' '
+16:45:48 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.
+17:03:19 **** Incremental Build of configuration Debug for project INF3430_Lab4_Task6 ****
+make all 
+make: Nothing to be done for `all'.

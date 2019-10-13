@@ -1,0 +1,3 @@
+set_property SRC_FILE_INFO {cfile:m:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/INF3430_Lab4/INF3430_Lab4.srcs/sources_1/bd/lab4processor/ip/lab4processor_processing_system7_0_0/lab4processor_processing_system7_0_0.xdc rfile:../../../../INF3430_Lab4/INF3430_Lab4.srcs/sources_1/bd/lab4processor/ip/lab4processor_processing_system7_0_0/lab4processor_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:lab4processor_0/lab4processor_i/processing_system7_0/inst} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_0 0.3

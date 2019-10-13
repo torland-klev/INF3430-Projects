@@ -1,0 +1,29 @@
+3 a)
+
+The output data change on the third clock cycle. This is because signals change their assigned value
+after the process is done running. This means: the first clock cycle, data1 will recieve the input data.
+Then on the second clock cycle, data3 will recieve the same input data. Finally, on the third cycle, 
+data5 will recieve the input data (thereby chaning the output data).
+
+3 b)
+
+Output changes to input after 450 ns (on the fifth rising edge). The input is UUUUUUUU after 50ns because the output data
+has not been initialized. Its first after 100 ns when the reset signal sets the output to 0..0.
+
+3 c)
+
+Output (7 downto 6) and (3 downto 2) is always the same as signals change only after the process is done running.
+Therefore they are put to the values that sig1 and sig2 is at the process start. Output (5 downto 4) and (1 downto 0)
+are assigned by variables that are given different values before each assignment.
+
+3 d)
+
+As the signals are taken out of the sensitivity list the process no longer cares if they are changed or not
+during the process. Previously, when the signals where assigned new values, the process would re-run itself
+until no further changes where made in the assignements. This happens after two process-iterations when the
+signals are part of the sensitivity list. 
+As the signals are taken out of the sensitivity list, the output dependent on the signals will be assigned to
+be what the signals where when the process started. At the first iteration, the signals are undefined, therefore
+the outputs dependent on the signals will be undefined. On the second iteration, the signals will have been 
+change previously, therefore they have new values. The output will be assigned to these values. The signals will
+be further changed when the process is done, as the process has assigned them new values.

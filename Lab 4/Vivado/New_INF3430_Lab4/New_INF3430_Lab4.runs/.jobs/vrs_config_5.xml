@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="M:/pc/Desktop/INF3430/INF3430-Lab-4/Vivado/New_INF3430_Lab4/New_INF3430_Lab4.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
